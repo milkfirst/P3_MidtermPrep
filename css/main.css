@@ -45,3 +45,105 @@ a:hover, a:active {
 .hidden {
     display: none;
 }
+
+/* this is the top left bar */
+/* Div is block level and no width specified therefore stretches full screen */
+
+#topBar {
+    background-color: #000;
+    height: 20px;
+}
+
+/* this is the box we put the entire site into */
+/* Site Containter
+This is essentially a box that we place the whole site in.
+We center the box using margin 0  auto and give it a fixed width of 920 + 20px + 20px (960px) so it fits*/
+
+#siteContainer {
+    margin: 0 auto;
+    width: 920px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#mainHeader {
+    margin-top: 40px;
+    padding-top: 40px;
+    overflow: hidden;
+    border-bottom: solid 1px #ddd;
+}
+
+
+/* when i put this in, it divided the nav (right) and the logo (left) */
+#logo {
+    width: 200px;
+    float: left;
+}
+
+#mainNav {
+    float: right;
+    width: 500px;
+}
+
+#promo {
+    margin-top: 40px;
+    overflow: hidden; /* fix colapsing parent */
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 40px;
+}
+
+/* Get rid of this, here just to give different heigh to promo */
+
+#promo p {
+    line-height: 250px;
+}
+
+#promoText {
+    float: left;
+    width: 600px;
+}
+
+#promoImage {
+    float: right;
+    width: 280px;
+}
+
+#productInfo {
+    margin-top: 40px;
+    overflow: hidden; /* fixes colapsing parent */
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 40px;
+}
+
+/* get rid of this, here just to give different height to productInfo */
+
+#productInfo p {
+    line-height: 300px;
+}
+
+.productDesc {
+    float: left;
+    width: 200px;
+    margin-right: 40px;
+}
+
+.productDescLast {
+    float: right;
+    width: 200px;
+}
+
+#mainFooter {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+#footerNav {
+    float: left;
+    width: 500px;
+}
+
+#copyRight {
+    float: right;
+    width: 310px;
+}
