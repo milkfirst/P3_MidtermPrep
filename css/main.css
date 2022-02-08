@@ -73,7 +73,6 @@ We center the box using margin 0  auto and give it a fixed width of 920 + 20px +
     border-bottom: solid 1px #ddd;
 }
 
-
 /* when i put this in, it divided the nav (right) and the logo (left) */
 #logo {
     width: 200px;
@@ -118,7 +117,7 @@ We center the box using margin 0  auto and give it a fixed width of 920 + 20px +
 /* get rid of this, here just to give different height to productInfo */
 
 #productInfo p {
-    line-height: 300px;
+    line-height: 200px;
 }
 
 .productDesc {
@@ -146,4 +145,38 @@ We center the box using margin 0  auto and give it a fixed width of 920 + 20px +
 #copyRight {
     float: right;
     width: 310px;
+}
+
+#aboutUsImage p {
+    line-height: 300px;
+}
+
+#aboutUs {
+    margin-top: 40px;
+    overflow: hidden; /* fix colapsing parent */
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 40px;
+}
+
+/* CONTACT US - 2nd page */
+
+#contactForm {
+    margin: 40px;
+    overflow: hidden; /* fix colapsing parent */
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 40px;
+}
+
+#contactForm p {
+    line-height: 400px;
+}
+
+#contactInput {
+    float: left;
+    width: 600px;
+}
+
+#promoTextContact {
+    float: right;
+    width: 250px;
 }
